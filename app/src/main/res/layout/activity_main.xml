@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/title_screen_bg"
+    android:gravity="center"
+    android:screenOrientation="landscape"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:src="@drawable/start_button" />
+
+    <ImageButton
+        android:id="@+id/nightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startButton"
+        android:layout_alignRight="@+id/startButton"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignEnd="@+id/startButton"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:src="@drawable/night_button" />
+
+    <ImageButton
+        android:id="@+id/dayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startButton"
+        android:layout_alignLeft="@+id/startButton"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignStart="@+id/startButton"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:src="@drawable/day_button" />
+</RelativeLayout>
+
+
